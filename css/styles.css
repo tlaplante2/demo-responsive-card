@@ -1,1 +1,37 @@
 /* developer styles go here */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #323232;
+}
+
+.container {
+    padding: 4rem 0.5rem;
+    max-width: 62.5rem;
+    margin: 0 auto;
+}
+
+/* ********* CARD ELEMENT **********  */
+
+section.card {
+    max-width: 23.75rem;
+    margin: 0 auto;
+    border-radius: .3125rem;
+    border: 1px solid #e8e8e8;
+    box-shadow: 3px 3px 5px #e8e8e8;
+}
+
+.card > div {
+    padding: 1.5rem; /* allows padding to content under image without selecting the image */
+}
+
+.card svg {
+    width: 1.125rem;
+    fill: #67768c;
+    margin-left: 0.25rem;
+}
+
+.card p {
+    font-size: 0.875rem;
+    color: #67768c;
+}
+
