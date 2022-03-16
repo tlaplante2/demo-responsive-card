@@ -13,7 +13,10 @@
 <body>
     <div class="container">
         <section class="card">
-            <img src="img/cookie-thumb.jpg" alt="pile of cookies with a glass of milk">
+            <picture>
+                <source media="(min-width: 50rem)" srcset="img/cookie.jpg">
+                <img src="img/cookie-thumb.jpg" alt="pile of cookies with a glass of milk">
+            </picture>
             <div>
                 <p>Member download available
                     <svg viewBox="0 0 141.732 141.732" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
@@ -32,8 +35,8 @@
                     asperiores minus dolorem, nam aut repellat cumque ab, similique accusamus. Alias, accusamus ad.
                     Quisquam
                     facere eveniet fuga dolore tenetur alias minus voluptate error?</p>
-                <footer>
-                    <img src="img/author.jpg" alt="Profile picturee of author">
+                <footer>                    <!-- to avoid warped images add Height:auto into the reset-->
+                    <img src="img/author.jpg" width="100" height="100" alt="Profile picturee of author">
                     <p>Amy Smith</p>
                     <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                         <path
